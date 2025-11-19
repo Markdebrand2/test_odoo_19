@@ -8,8 +8,8 @@ services:
     depends_on:
       - mdbdb
     ports:
-      - "8080:8069"
-      - "8081:8072"
+      - "8072:8069"
+      - "8075:8072"
     volumes:
       - test19-odoo-data-2:/var/lib/odoo
       - /opt/odoo/test_odoo_19/config2/odoo.conf:/opt/odoo/odoo.conf
